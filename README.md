@@ -1,4 +1,4 @@
 # grid-chessboard
 
 My page is edited on: 
-[GitHub](http://github.com)
+[grid-chessboard](http:// https://maud-pixel.github.io/grid-chessboard/)
