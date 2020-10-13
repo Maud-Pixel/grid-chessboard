@@ -1,0 +1,130 @@
+*
+{padding: 0px;
+margin: 0px;}
+.container
+{
+    display: grid;
+    /* grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto; */
+    
+}
+.item1 {grid-area: A1; }
+.item2 {grid-area: A2; }
+.item3 {grid-area: A3;}
+.item4 {grid-area: A4; }
+.item5 {grid-area: A5; }
+.item6 {grid-area: A6; }
+.item7 {grid-area: A7; }
+.item8 {grid-area: A8; }
+.item9 {grid-area: B1; }
+.item10 {grid-area: B2;}
+.item11 {grid-area: B3;}
+.item12 {grid-area: B4;}
+.item13 {grid-area: B5;}
+.item14 {grid-area: B6;}
+.item15 {grid-area: B7;}
+.item16 {grid-area: B8;}
+.item17 {grid-area: C1;}
+.item18 {grid-area: C2;}
+.item19 {grid-area: C3;}
+.item20 {grid-area: C4;}
+.item21 {grid-area: C5;}
+.item22 {grid-area: C6;}
+.item23 {grid-area: C7;}
+.item24 {grid-area: C8;}
+.item25 {grid-area: D1;}
+.item26 {grid-area: D2;}
+.item27 {grid-area: D3;}
+.item28 {grid-area: D4;}
+.item29 {grid-area: D5;}
+.item30 {grid-area: D6;}
+.item31 {grid-area: D7;}
+.item32 {grid-area: D8;}
+.item33 {grid-area: E1;}
+.item34 {grid-area: E2;}
+.item35 {grid-area: E3;}
+.item36 {grid-area: E4;}
+.item37 {grid-area: E5;}
+.item38 {grid-area: E6;}
+.item39 {grid-area: E7;}
+.item40 {grid-area: E8;}
+.item41 {grid-area: F1;}
+.item42 {grid-area: F2;}
+.item43 {grid-area: F3;}
+.item44 {grid-area: F4;}
+.item45 {grid-area: F5;}
+.item46 {grid-area: F6;}
+.item47 {grid-area: F7;}
+.item48 {grid-area: F8;}
+.item49 {grid-area: G1;}
+.item50 {grid-area: G2;}
+.item51 {grid-area: G3;}
+.item52 {grid-area: G4;}
+.item53 {grid-area: G5;}
+.item54 {grid-area: G6;}
+.item55 {grid-area: G7;}
+.item56 {grid-area: G8;}
+.item57 {grid-area: H1;}
+.item58 {grid-area: H2;}
+.item59 {grid-area: H3;}
+.item60 {grid-area: H4;}
+.item61 {grid-area: H5;}
+.item62 {grid-area: H6;}
+.item63 {grid-area: H7;}
+.item64 {grid-area: H8;}
+
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: 10%;
+    justify-content:center;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    border: 10px solid black;
+    width: 450px;
+    height: 450px;
+    grid-template-areas: 
+    ". L  L  L  L  L  L  L  L "
+    "N A1 A2 A3 A4 A5 A6 A7 A8"
+    "N B1 B2 B3 B4 B5 B6 B7 B8"
+    "N C1 C2 C3 C4 C5 C6 C7 C8"
+    "N D1 D2 D3 D4 D5 D6 D7 D8"
+    "N E1 E2 E3 E4 E5 E6 E7 E8"
+    "N F1 F2 F3 F4 F5 F6 F7 F8"
+    "N G1 G2 G3 G4 G5 G6 G7 G8"
+    "N H1 H2 H3 H4 H5 H6 H7 H8";
+  }
+.grid-container > * {
+    
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+   
+  }
+  
+.white
+{
+    background-color: white;
+
+}
+
+.black
+{
+    background-color: grey;
+}
+
+img
+{
+    width: 40px;
+    height: 40px;
+    box-sizing: content;
+}
+
+.N, .L
+{
+    background-color: green;
+    color: white;
+}
+
